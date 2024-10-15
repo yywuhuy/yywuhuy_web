@@ -1,0 +1,26 @@
+/* allplayer.css */
+
+/* 标签页导航颜色 */
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.nav-tabs .nav-link {
+    color: #007bff;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #0056b3;
+}
+
+/* 卡片背景颜色 */
+.card {
+    background-color: #ffffff;
+    border-color: #007bff;
+}
+
+.card-title {
+    color: #007bff;
+}
+

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Website Title -->
+    <title>玩家主页 - g_km</title>
+    
+    <!-- Styles -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/styles.css" rel="stylesheet">
+    <link href="static/css/allplayer.css" rel="stylesheet">
+    
+    <!-- Favicon  -->
+    <link rel="icon" href="static/picture/a4VB1f.png">
+    <script async="" src='static/js/invisible.js'></script>
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index1.html"><img src="static/picture/a4VI1f.png" alt="alternative"></a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index1.html#header">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index1.html#info">服务器介绍</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="index1.html#list" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">服务器列表</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href=""><span class="item-text">纯净插件生存1.21</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index1.html#picture">风景欣赏</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="news.html#new">游戏公告</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="player.html">玩家列表</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" onclick="window.open('events.html')">赛事活动</a>
+                </li>
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">友情外链</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://www.minebbs.com"><span class="item-text">MineBBS</span></a>
+                    <div class="dropdown-items-divide-hr"></div>
+                    <a class="dropdown-item" href="https://mcneo.cn"><span class="item-text">光影</span></a>
+                    <div class="dropdown-items-divide-hr"></div>
+                    <a class="dropdown-item" href="https://www.minecraft.net"><span class="item-text">Minecraft</span></a>
+                    <div class="dropdown-items-divide-hr"></div>
+                    <a class="dropdown-item" href="https://zh.minecraft.wiki"><span class="item-text">Minecraft wiki</span></a>
+                </div>
+               </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+
+    <!-- Header -->
+    <header id="header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>g_km的主页</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
+
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index1.html">首页</a><span>&nbsp;&nbsp;>&nbsp;&nbsp;</span><a href="index1.html#list">玩家列表</a><span>&nbsp;&nbsp;>&nbsp;&nbsp;</span><span>g_km</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+    <!-- Player Info Section -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>g_km</h2>
+                    <p>服务器内第一个生电玩家</p>
+                    <p>g_km 是一名资深的 Minecraft 玩家，擅长复杂的红石电路设计。他在服务器内完成了许多令人惊叹的生电项目，并且是QQ群中的活跃成员。</p>
+                    
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs" id="playerTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="achievements-tab" data-toggle="tab" href="#achievements" role="tab" aria-controls="achievements" aria-selected="true">成就</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="builds-tab" data-toggle="tab" href="#builds" role="tab" aria-controls="builds" aria-selected="false">建筑作品</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="screenshots-tab" data-toggle="tab" href="#screenshots" role="tab" aria-controls="screenshots" aria-selected="false">游戏截图</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">联系信息</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="playerTabContent">
+                        <div class="tab-pane fade show active" id="achievements" role="tabpanel" aria-labelledby="achievements-tab">
+                            <ul>
+                                <li>成就1: 建造了服务器内最大的红石电路</li>
+                                <li>成就2: 完成了建筑项目</li>
+                                <li>成就3: 创建了服务器内第一个生电机器</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="builds" role="tabpanel" aria-labelledby="builds-tab">
+                            <h3>建筑作品</h3>
+                            <div class="card-deck">
+                                <div class="card">
+                                    <img src="static/picture/do0j9P.jpg" class="card-img-top" alt="g_km的建筑作品">
+                                    <div class="card-body">
+                                        <h5 class="card-title">生电作品1: 刷石机兼树场</h5>
+                                        <p class="card-text">这是一座刷石机兼树场，满足了此基地石头和木头的需求</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="static/picture/example_build.jpg" class="card-img-top" alt="g_km的建筑作品">
+                                    <div class="card-body">
+                                        <h5 class="card-title">生电作品2: nothing</h5>
+                                        <p class="card-text">nothing</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="static/picture/example_build.jpg" class="card-img-top" alt="g_km的建筑作品">
+                                    <div class="card-body">
+                                        <h5 class="card-title">生电作品3: nothing</h5>
+                                        <p class="card-text">nothing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="screenshots" role="tabpanel" aria-labelledby="screenshots-tab">
+                            <h3>游戏截图</h3>
+                            <div class="card-deck">
+                                <div class="card">
+                                    <img src="static/picture/example_screenshot.jpg" class="card-img-top" alt="g_km的游戏截图">
+                                    <div class="card-body">
+                                        <h5 class="card-title">截图1: nothing</h5>
+                                        <p class="card-text">nothing</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="static/picture/example_screenshot.jpg" class="card-img-top" alt="g_km的游戏截图">
+                                    <div class="card-body">
+                                        <h5 class="card-title">截图2:nothing</h5>
+                                        <p class="card-text">nothing</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="static/picture/example_screenshot.jpg" class="card-img-top" alt="g_km的游戏截图">
+                                    <div class="card-body">
+                                        <h5 class="card-title">截图3:nothing</h5>
+                                        <p class="card-text">nothing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <h3>联系信息</h3>
+                            <p>如果你想与g_km取得联系，可以通过以下方式：</p>
+                            <ul>
+                                <li>QQ群: 搜索g_km</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End of Tabs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of player info section -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container about">
+                        <h4>关于更多</h4>
+                        <p style="color:#dfe5ec;margin-bottom:0rem">网站By <a target="_blank" href="javascript:;">yywuhuy</a></p>
+                        <p style="color:#dfe5ec;margin-bottom:0rem">美工By <a href="javascript:;">pass</a></p>
+                        <p style="color:#dfe5ec;margin-bottom:0rem">建筑By <a href="javascript:;">pass</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="color:#dfe5ec;margin-bottom:0rem"> 友情外链:&nbsp;&nbsp;<a target="_blank" href="https://www.minebbs.com">MineBBS</a>&nbsp;&nbsp;<a target="_blank" href="https://mcneo.cn">光影</a>&nbsp;&nbsp;<a target="_blank" href="https://www.minecraft.net">Minecraft</a>&nbsp;&nbsp;<a target="_blank" href="https://zh.minecraft.wiki">Minecraft Wiki</a></p>
+                    <p class="p-small">Copyright &copy; 2021 <a target="_blank" href="index1.html">yywuhuy</a>丨版权所有</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    <!-- Scripts -->
+    <script src="static/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="static/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="static/js/jquery.magnific-popup.min.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="static/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script crossorigin="anonymous" integrity="sha384-8CYhPwYlLELodlcQV713V9ZikA3DlCVaXFDpjHfP8Z36gpddf/Vrt47XmKDsCttu" src="static/js/clipboard.min.js"></script>
+    <script src="static/js/js.js"></script>
+    <script src="static/js/scripts.js"></script> <!-- Custom scripts -->
+    <script type="text/javascript">(function(){window['__CF$cv$params']={r:'722dfdb78bdf7cdd',m:'lz5Z7JcUBGDJ4VcdVGMCJti_ttvQsxxTLCN2fWKmVIM-1656498671-0-AYg1UZfa/6uVqY3tVCm3szxKwpR0k/D3WFBeL3YVOCxxJB8Rd0mcN4Z+0XaTGw72q7mEH2S+i8U5XVxgELFsgpxLOPwCGE2iQ58W17ZBLB6J6H8Kbs3z296BPdeNZtcHSAnz7KyMrS/5BnCtTguNbJc=',s:[0xb29238c46b,0x77362adda6],u:'/cdn-cgi/challenge-platform/h/b'}})();</script><script defer="" src="static/js/v652eace1692a40cfa3763df669d7439c1639079717194.js" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"722dfdb78bdf7cdd","version":"2022.6.0","r":1,"token":"776870bd5e914f9693a2a32d28cef7a8","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
